@@ -1,0 +1,3 @@
+./lda -est -alpha 2.5 -beta 0.011 -omega 0.022 -rho 0.033 -epsilon 0.044 -ntopics 20 -niters 5 -twords 5 -tlinks 5 -dfile ./test.dat -lfile ./ltest.dat
+
+ ./lda -est -alpha 0.5 -beta 0.01 -omega 0.01 -rho 1.0 -epsilon 0.01 -ntopics 100 -niters 500 -savestep 100 -twords 15 -tlinks 15 -dfile ./word8.dat -lfile ./link8.dat -tfile ./time8.dat
